@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-chicas{
+    background: linear-gradient(175deg, rgba(249,168,212,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.bg-footer{
+    background: #fce0f3;
+}
+
+.bg-header{
+    background: #ec96be;
+}
+
+.button-chicas {
+    background-color: #ec96be;
+}
+
+@font-face {
+    font-family: 'HelveticaRounded';
+    src: url('/src/assets/fonts/HelveticaRoundedLTStd-Bd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
